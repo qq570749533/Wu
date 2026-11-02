@@ -8,8 +8,8 @@ Components: main
 Description: QQ570749533 的越狱软件源
 Support: https://qq570749533.github.io/Wu/
 MD5Sum:
- 1feca8e80ce9ea3d4897a3f0906840b1  4235 Packages
- 1b149b585fe1a07728f946a9dad0c329  2239 Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e  0 Packages
+ 3e9da1ed95df3e0febe9073b1d996133  29 Packages.gz
 SHA256:
- c7b74d2b7e033f2fdf42908651aaf885bd339d51b8dbc388bc9b104a256385e0  4235 Packages
- 20dfa0c569e81c192766d0ef13fc6b7739f33b57d40468a55f009fb53bae4595  2239 Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  0 Packages
+ 18dbf1ad30661fca2db51bc3d7934bc8d69d4a216d162fbce71019c9e8c9a619  29 Packages.gz
