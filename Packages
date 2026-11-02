@@ -1,0 +1,91 @@
+Package: com.nan.disablesblockaftercrash
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 7.0)
+Depends: plutil | com.bingner.plutil
+Filename: debs/com.nan.disablesblockaftercrash_0.1.0_iphoneos-arm64e.deb
+Size: 1232
+MD5sum: b6496220bedd88533273432210e08668
+SHA1: 79a12da1cca20bccbc006cae553a4f9c9f9c1e89
+SHA256: 5c6b8be1d3854cd280879befec34a02be3271b60a284e9f3c9d30b6417f597e9
+SHA512: 2edb0a607204dbc744659791c712334b760aabcc4631845fd8211b10d7c14383819c76a3d32ff7d9dd9219aa55ebff9684abca7abce66f2ab679517294a82db0
+Description: 禁用 SpringBoard 崩溃后自动锁定的策略
+Name: Disable SB Lock After Crash
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disablesblockaftercrash/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.nan.miic
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Depends: coreutils
+Filename: debs/com.nan.miic_0.1.0_iphoneos-arm64e.deb
+Size: 1152
+MD5sum: e23a394d69f7c9c62095372f4c531d26
+SHA1: bd10a3178f8afed0f255f3310299f3da132a8ac8
+SHA256: 9be01c2244fd5a0486dc982984d8f5cc23564c6e0ff28ff53e7e6aef42b99c7c
+SHA512: 75307b08307c735830ec1ab0a3effdc46501c1bb411c91e84f504a5f2c80a97520e11520a1b92d85ab0658691067d9f7e2542c6d3fecd1a7c9d9ce5e6521adc4
+Description: 将系统图标图片缓存文件夹指向 /tmp 达到每次重启时清空缓存的目的，可能可以解决异常缓存造成的不好影响？
+Name: Move Icon Image Cache
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.miic/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.nan.realitytmp
+Architecture: iphoneos-arm64e
+Version: 0.3.3-1
+Section: Addons
+Maintainer: zhaonan
+Depends: coreutils, gawk, grep, system-cmds, file-cmds, text-cmds
+Filename: debs/com.nan.realitytmp_0.3.3-1_iphoneos-arm64e.deb
+Size: 2488
+MD5sum: 3f0825d485c592ea43fe648fa198ec32
+SHA1: 6ef10f676c28faa236f8fee0e08e7d1ef3c7b621
+SHA256: 8f128ea18482ca1993520387670541b6fe5dc67fb7b82f348a7cc1c6847da0db
+SHA512: 75c986283890a44d3f549354a58fa79c09ec9920f8c73b94f8a31cbd0cbef192de22d4375c15e8d000f693a6043ea09ff0f0447a9068d067c532d86a46651147
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Name: Reality tmp
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.roothide.lockdown
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.roothide.lockdown_2.0_iphoneos-arm64e.deb
+Size: 5412
+MD5sum: 7a947eb00eeb7522ddf166627ac63fc8
+SHA1: 4ab8a00cc2e11a8e4f35858ea0f910b79a5f97ec
+SHA256: 2aeb212e6ac09e14c269126966442031903074de5d7e55c6f37e21d2d084151b
+SHA512: 90e612ab37235165a13923d26e40bf10f031092aa03d1f39701b3de2450691410c96e623c5f748c2ea164d63b291d6df2c664f913fab7f5e954bdcbd9982f55c
+Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语（addrof/fakeobj、JIT类型混淆、GC UAF）。默认启用！
+Name: Lockdown-Roothide
+Author: roothide
+
+Package: com.wkk.pkq
+Architecture: iphoneos-arm64e
+Version: 1.0-1
+Section: 美化
+Maintainer: wkk
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wkk.pkq_1.0-1_iphoneos-arm64e.deb
+Size: 771036
+MD5sum: 1262b0a93aa7de120e5f848f8e52be1f
+SHA1: 8c1766fa995d4b7aa60d616c8b3efadfa18542f9
+SHA256: 73c4d75c18a8c01290f5404250508a7056131592d4955f60a0982b0e551bdb8d
+SHA512: 53f071bcee0dfa133a927b25af5e9e35575b63019a8d9a0146d9f2894f2e54e2bd2c7ec432f5de27b2efe5c1927ba7d537a4ac692311a0bbb470dd2603f9280e
+Description: 仅支持无根/隐根越狱
+  * 注销动画路径：/System/Library/PrivateFrameworks/BackBoardServices.framework/
+  * 注意：先挂载注销动画路径再下载此插件，最后重启Springboard后随便找个插件注销即可看到一个可爱的动态皮卡丘。
+Author: wkk
+Name: 皮卡丘注销动画
+Icon: https://s1.imagehub.cc/images/2025/01/06/75dc8800d1c97029204392465be466b4.jpeg
+
